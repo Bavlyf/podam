@@ -7,7 +7,13 @@
 		<artifactId>oss-parent</artifactId>
 		<version>7</version>
 	</parent>
-
+<repositories>
+    <repository>
+      <id>eclips_egit</id>
+      <url>https://repo.eclipse.org/content/groups/releases/</url>
+    </repository>
+ </repositories>
+	
 	<groupId>uk.co.jemos.podam</groupId>
 	<artifactId>podam</artifactId>
 	<version>7.1.1-SNAPSHOT</version>
